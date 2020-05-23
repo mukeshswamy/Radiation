@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet } from "react-native";
-import { Input } from "react-native-elements";
+import { View, Text} from "react-native";
 import InputField from "./components/InputField";
 
 export class Radiationoutput extends Component {
@@ -9,16 +8,6 @@ export class Radiationoutput extends Component {
           };
   
   render() {
-    // const styles = StyleSheet.create({
-    //   bigBlue: {
-    //     color: 'blue',
-    //     fontWeight: 'bold',
-    //     fontSize: 30,
-    //   },
-    //   red: {
-    //     color: 'red',
-    //   },
-    // });
     var con;
     var textColor = "red";
     if(this.state.ran2 == 1 || this.state.ran2 < 25){

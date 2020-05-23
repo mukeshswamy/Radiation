@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 6401,
+  "expoServerNgrokUrl": "https://nr-549.mukeshswamy.radiation.exp.direct",
+  "packagerNgrokUrl": "https://packager.nr-549.mukeshswamy.radiation.exp.direct",
+  "ngrokPid": 6414,
+  "webpackServerPort": 19006
+}

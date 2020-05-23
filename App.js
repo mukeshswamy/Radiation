@@ -4,6 +4,7 @@ import { Router, Scene } from 'react-native-router-flux'
 import Home from './Home.js'
 import Main from './Main.js'
 import Radiationoutput from './Radiationoutput.js'
+import Auto from "./Auto.js";
 
 export default function App() {
   function ale() {
@@ -14,6 +15,7 @@ export default function App() {
       <Scene key = "root">
          <Scene key = "home" component = {Home} title = "Home" initial = {true}  />
          <Scene key = "main" component = {Main} title = "Main"/>
+         <Scene key = "auto" component = {Auto} title = "Main"/>
          <Scene key = "radiationoutput" component = {Radiationoutput} title = "Output"/>
       </Scene>
    </Router>
